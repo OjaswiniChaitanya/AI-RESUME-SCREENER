@@ -1,5 +1,3 @@
-# AI-RESUME-SCREENER
-The AI Resume Screener is a lightweight Streamlit-based web app that analyzes resumes and predicts the most suitable job role based on the content of the uploaded document.
 # 🧠 AI Resume Screener
 
 A simple yet powerful AI-powered Streamlit app that helps screen resumes and predict the most suitable job role based on keyword matching.
