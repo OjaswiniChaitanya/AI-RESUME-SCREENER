@@ -1,31 +1,35 @@
 # AI-RESUME-SCREENER
 The AI Resume Screener is a lightweight Streamlit-based web app that analyzes resumes and predicts the most suitable job role based on the content of the uploaded document.
-🚀 Features
-📄 Upload resume in PDF, DOCX, or TXT format
+# 🧠 AI Resume Screener
 
-⚙️ Extracts and analyzes resume content
+A simple yet powerful AI-powered Streamlit app that helps screen resumes and predict the most suitable job role based on keyword matching.
 
-🧠 Predicts relevant job roles using keyword matching or ML
+---
 
-🖥️ Built using Streamlit + Python
+## 🚀 Features
 
-✅ ATS-friendly and easy to use
+- 🔍 Upload and analyze multiple resumes at once
+- 📄 Supports PDF, DOCX, and TXT files
+- 🧠 Automatically predicts suitable job roles based on resume content
+- 📌 Displays keyword match counts for each role
+- 📥 Download results as a CSV file
+- 📃 View extracted resume content inside the app
 
-🔧 Tech Stack
-Python
+---
 
-Streamlit (UI)
+## 🛠️ Technologies Used
 
+- **Python 3**
+- **Streamlit** – for building the user interface
+- **PyPDF2** – for extracting text from PDFs
+- **docx2txt** – for reading DOCX files
+- **Pandas** – for tabular data handling and CSV export
+- **Regular Expressions (`re`)** – for keyword-based job role matching
 PyPDF2, docx2txt, regex (for parsing)
 
 Simple ML or rule-based logic (for predictions)
 
-📦 Future Enhancements
-Integrate advanced ML/NLP (spaCy, BERT, etc.)
 
-Add skill-matching score
 
-Export results as PDF or CSV
 
-Dashboard for batch resume analysis
 
